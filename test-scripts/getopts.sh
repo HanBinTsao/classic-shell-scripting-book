@@ -20,14 +20,12 @@ do
     l)    long=true
           ;;
     esac
+echo "now the OPTIND value is $OPTIND"
 done
+
+#echo "now the OPTIND value is $OPTIND"
 shift $((OPTIND -1))
-
-
-
-
-
-
+#echo "now the OPTIND value is $OPTIND"
 
 echo file is $file
 echo verbose is $verbose
