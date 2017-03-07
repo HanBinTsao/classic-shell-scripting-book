@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# refer to: page 137
 
 str1=aaa
 str2=bbb
