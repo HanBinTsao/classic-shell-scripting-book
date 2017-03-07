@@ -18,6 +18,8 @@ do
     if test -z "$EGREPFLAGS"
     then
 	EGREPFLAGS="$1"
+        echo $EGREPFLAGS
+        echo 'hello' $1
     else
 	EGREPFLAGS="$EGREPFLAGS|$1"
     fi

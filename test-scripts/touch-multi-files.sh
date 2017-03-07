@@ -9,5 +9,6 @@
 IFS='
  	'
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+export PATH
 
 for i in (1..5
